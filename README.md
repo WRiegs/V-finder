@@ -10,4 +10,7 @@ You first need a ReMAP2022 database file, and the clinvar txt file with all avai
 In the example given, we took the bed file for TP53 Transcription Factor.
 
 Code:
+
+```
 python code/single_cell_meta_pipeline.py bedfile.bed clinvar.txt --reference GRCh38 --out_folder results --clean
+```
